@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>工业企业网站</title>
+	<style>
+	*{
+		padding: 0;
+		margin: 0 auto;
+	}
+	body{
+		margin: 0 auto;
+		background-color:#F4F4F4FF;
+	}
+	a{
+			text-decoration: none;
+	}
+	li{
+			list-style: none;
+	}
+	.logo{
+		padding-right: 60px;
+		float: left;
+	}
+	.fr{
+		float: right;
+	}
+	.fl{
+		float: left;
+	}
+	#top{
+		width: 1200px;
+		height: 80px;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.nav{
+		margin-top: 42px;
+	}
+	.nav li{
+		float: left;
+		border-right: 1px solid rgba(128,128,128, 1);
+	}
+	.nav a{
+		padding-bottom: 12px;
+		font-size:16px;
+		font-family:Microsoft YaHei;
+		font-weight:400;
+		color:rgba(74,74,74,1);
+		padding:0 7px;
+	}
+	.clear form * {
+		float: left;
+		position: relative;
+		bottom: 45px;
+	}
+	.form .search{
+		width: 360px;
+		height: 20px;
+		border: 1px solid rgba(0, 163, 255, 1.0);
+		padding: 9px;
+		position: relative;
+		right: 200px;
+	}
+	#last {
+	border: none;
+	padding-right: 9px;
+}
+.form .submit {
+    width: 50px;
+    height: 40px;
+    border: 1px solid rgba(0,163,255, 1);
+    border-left: none;
+    background: rgba(0,163,255, 1) url(切图/a.png) no-repeat center center;
+    position: relative;
+    right: 200px;
+}
+
+.clear:after {
+    content: '';
+    display:block;
+    height: 0;
+    clear: both;
+}
+.head{
+	background-color:#558EB0FF;
+	height:45px;
+	text-align: center;
+}
+.head ul{
+	position: relative;
+	left:160px;
+}
+.head li{
+	float: left;
+	
+}
+.head li a{
+		float: right;
+		height:19px;
+		font-size:18px;
+		text-align: center;
+		font-family:Microsoft YaHei;
+		font-weight:400;
+		color:rgba(255,255,255,1);
+		padding-right: 90px;
+		line-height: 40px;
+}
+#photo{
+	background-color: #010005FF;
+	height:326px;
+	text-align: center;
+	border:0px 20px 20px 20px;
+	border-color:  #AFAFAFFF;
+}
+.main{
+	height:470px;
+	float: left;
+	padding: 0 200px;
+	}
+	.box{
+		float: left;
+		padding-top: 20px;
+		margin: 0 10px;
+	}
+	#left{
+		width: 335px;
+	}
+	#center{
+		width:333px;
+	}
+	#right{
+		width: 299px;
+	}
+	.look img{
+		width:333px;
+		height:107.1px;
+		padding-bottom: 14px
+	}
+	span{
+		width:96px;
+		height:60px;
+		font-size:24px;
+		line-height: 60px;
+		font-family:Microsoft YaHei;
+		font-weight:400;
+		color:rgba(0,101,167,1);
+		float: left;
+	}
+	#left p{
+		width:335px;
+		height:149px;
+		background:rgba(235, 235, 235, 1.5);
+		padding-top: 0px;
+		margin-top: 0px;
+	}
+	.look li{
+		position: relative;
+	}
+	.look p{
+		width:102px;
+		height:21px;
+		font-size:20px;
+		font-family:Microsoft YaHei;
+		font-weight:400;
+		color:rgba(255,255,255,1);
+		text-shadow:0px 2px 2px rgba(0, 0, 0, 0.21);
+		position: absolute;
+		right: 20px;
+		bottom: 71px;
+	}
+	.more{
+		width:96px;
+		height:60px;
+		line-height: 60px;
+		font-size:18px;
+		font-family:Microsoft YaHei;
+		font-weight:400;
+		color:rgba(64,64,64,1);
+		float: right;
+	}
+	.text{
+		float: left;
+	}
+	.text li a{
+		font-size:18px;
+		font-family:Microsoft YaHei;
+		font-weight:400;
+		color:rgba(96,96,96,1);
+		line-height:40px;
+	}
+	.input{
+		text-align: center;
+		padding-left: 130px;
+	}
+	.input span{
+		font-size:18px;
+		font-family:Microsoft YaHei;
+		color:rgba(0,101,167,1);
+		line-height: 20px;
+	}
+	.input form{
+		line-height: 20px;
+		float: left;
+		padding: 10px;
+	}
+	.bottom{
+		background-color: #1467A2FF;
+		height: 103px;
+		color: #fff;
+		text-align: center;
+		float: left;
+		width: 1525px;
+		line-height: 50px;
+	}
+	</style>
+</head>
+<body>
+
+		<div id="top" class="clear">
+			<img class="logo" src="切图/logo.png" alt="logo" width="170px" height="39px">
+			<ul class="nav clear">
+				<li><a href="#">技术参数</a></li>
+				<li><a href="#">对换表</a></li>
+				<li id="last"><a href="#" >抗化学腐蚀性表</a></li>
+			</ul>
+			<form class="form clear fr">
+				<input type="text" placeholder="输入关键字" class="search">
+				<input type="button" class="submit">
+				
+			</form>
+		</div>
+		<div class="head">
+			<ul>
+				<li><a href="#">&nbsp首页&nbsp</a></li>
+				<li><a href="#">公司简介</a></li>
+				<li><a href="#">产品中心</a></li>
+				<li><a href="#">服务人群</a></li>
+				<li><a href="#">行业应用</a></li>
+				<li><a href="#">资源下载</a></li>
+				<li><a href="#">联系我们</a></li>
+			</ul>
+		</div>
+		<div id="photo">
+			<img src="切图/图层 20.png">
+		</div>
+		<div class="main">
+			<div class="box" id="left">
+				<span>关于</span>
+				<img src="切图/图层 12.png" width="337px" height="205px">
+				<p>
+				杜拉巴尔是一家具有超过100年历史的专业生产全系列静密封产品的公司。 集团公司在美国，加拿大，中国有五家独资工厂。 DURLON静密封产品广泛应用于炼油，石油化工，化工，电力（火电及核电），造纸，食品药品等行业。     
+				</p>
+			</div>
+			<div class="box" id="center">
+				<span>行业应用</span>
+				<ul class="look">
+					<li><a href="#"><p>&nbsp&nbsp&nbsp化工<br>Chemical</p><img src="切图/图层 22.png" class="min"></a></li>
+					<li><a href="#"><p>石油天然气<br>Oil&nbsp&&nbspgas</p><img src="切图/图层 21.png" class="min"></a></li>
+					<li><a href="#"><p>&nbsp&nbsp&nbsp电力<br>Electric</p><img src="切图/图层 23.png" class="min"></a></li>
+				</ul>
+			</div>
+			<div class="box" id="right">
+				<span>资源下载</span>
+				<a href="#" class="more">more</a>
+				<ul class="text">
+				<li><a href="#">公司地址及联系方式</a></li>
+				<li><a href="#">公司企业年检报告</a></li>
+				<li><a href="#">产品技术参数</a></li>
+				<li><a href="#">产品安全手册</a></li>
+				<li><a href="#">公司产品手册电子版</a></li>
+				<li><a href="#">公司产品手册</a></li>
+				<li><a href="#">公司产品手册</a></li>
+				<li><a href="#">公司产品手册</a></li>
+				<li><a href="#">公司产品手册</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="input">
+			
+			<form  action="#">
+				<span>员工登录</span>
+				工号：
+				<input type="text">
+				密码:
+				<input type="password">
+				<input type="submit">
+			</form>
+			<form action="#">
+				<span>经销商登录</span>
+				编号：
+				<input type="text">
+				密码:
+				<input type="password">
+				<input type="submit">
+			</form>
+		</div>
+		<div class="bottom">
+			杜拉巴尔流体装置（上虞）有限公司<br>Copyright © By 2009 all right reserved.&nbsp浙ICP备05087296号 
+		</div>
+</body>
+</html>
